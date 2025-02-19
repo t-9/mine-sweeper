@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>マインスイーパー</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="game">
+    <h1>マインスイーパー</h1>
+    <div id="status">
+      <span>残り地雷: <span id="mines-left">10</span></span>
+      <span>時間: <span id="timer">0</span></span>
+      <span>ベスト: <span id="best-time">-</span></span>
+    </div>
+    <div id="grid"></div>
+    <div id="controls">
+      <button id="easy">簡単 (9x9, 10地雷)</button>
+      <button id="medium">中級 (16x16, 40地雷)</button>
+      <button id="hard">上級 (16x30, 99地雷)</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
