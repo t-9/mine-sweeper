@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>マインスイーパー</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,7 +23,15 @@
       <button id="hard">上級 (16x30, 99地雷)</button>
     </div>
   </div>
-  <script src="script.js"></script>
+
+  <!-- ECS 関連スクリプト -->
+  <script type="module" src="ecs/entity.js"></script>
+  <script type="module" src="ecs/components.js"></script>
+  <script type="module" src="ecs/systems.js"></script>
+  <script type="module" src="ecs/game.js"></script>
+
+  <!-- メインスクリプト -->
+  <script type="module" src="main.js"></script>
 </body>
 
 </html>
